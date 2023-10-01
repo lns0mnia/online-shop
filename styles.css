@@ -51,7 +51,6 @@ nav ul li {
 }
 
 nav a {
-    
     color: White;
     font-weight: bold;
 }
@@ -66,9 +65,10 @@ nav a {
     border: 1px solid LightGray;
     padding: 20px;
     margin-bottom: 20px;
-    float: center; 
+    float: none; 
     /*width: calc(33.33% - 20px); */
     clear: none; 
+	position:static;
 }
 
 #saleproducts img {
@@ -101,7 +101,7 @@ nav a {
 }
 
 
-#about, #contact {
+#about, #contact, #news, #readypc ,#choose, #registr {
     background-color: White;
     padding: 20px;
     margin-top: 20px;
@@ -123,4 +123,46 @@ footer {
 
 div.about table, th, td {
   border:1px solid black;
+}
+
+
+.carousel-inner img {
+  width: 10%;
+  height: auto;
+}
+
+input[type="radio"] {
+  margin-right: 5px; 
+}
+
+input[type="text"],
+textarea {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+label {
+  display: block; 
+  font-weight: bold;
+  margin-top: 10px; 
+}
+
+.forms {
+  text-align: left;
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+
+#forma {
+  border: 2px solid #000000;
+  margin: 10px;
+  padding: 20px; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
 }
